@@ -1,0 +1,13 @@
+#map {
+    height: 400px;
+    background-color: green;
+}
+
+#map::before{
+    content: 'LOADING';
+    font-size: 3em;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    margin-top: 3em;
+}
